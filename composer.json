@@ -12,8 +12,8 @@
     ],
     "require": {
         "php": ">=8.2",
-        "rucaua/epa-response":  "*",
-        "rucaua/epa-request":  "*"
+        "rucaua/epa-request": "dev-main",
+        "rucaua/epa-response": "dev-main"
     },
     "autoload": {
         "psr-4": { "rucaua\\epa\\actions\\": "src" }

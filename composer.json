@@ -1,0 +1,21 @@
+{
+    "name": "rucaua/epa-actions",
+    "type": "library",
+    "description": " Abstract collection of CRUD actions",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maksym Tymofeiev",
+            "email": "tymofeiev.m@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "rucaua/epa-response":  "*",
+        "rucaua/epa-request":  "*"
+    },
+    "autoload": {
+        "psr-4": { "rucaua\\epa\\actions\\": "src" }
+    }
+}
